@@ -19,6 +19,11 @@ es_estudiante = True      # booleano (bool)
 
 print("hola, tu nombre es", nombre, apellidos, ",", "tienes", edad, "años y vives en", direccion)
 
+# Variables en una sola linea (no recomendado para mas de 2 o 3 variables por linea)
+color_favorito, comida_favorita, numero_favorito = "azul", "pizza", 32 # Definimos las variables y les asignamos valores separados por comas
+
+print("Tu color favorito es", color_favorito, ", tu comida favorita es", comida_favorita, "y tu número favorito es", numero_favorito)
+
 #conversion de tipos de datos
 edad_como_cadena = str(edad)  # Convertir entero, edad, a cadena
 print("Tu edad es " + edad_como_cadena + " años.")  # Concatenación de cadenas usando la conversión y el operador +
