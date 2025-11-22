@@ -90,4 +90,3 @@ print("Operador not, invierte el valor lógico del operando:")
 print("not True: ", not True)   # False
 print("not False: ", not False) # True
 print()
-
