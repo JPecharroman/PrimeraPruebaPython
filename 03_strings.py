@@ -94,12 +94,35 @@ cadena_invertida = texto[::-1]  # Invierte la cadena completa
 print(cadena_invertida)  # Imprime 'nohtyP odneidnarpA'
 print()
 
-
 # Dividir una cadena en una lista de subcadenas usando un separador
 frase = "Aprender Python es divertido"
 palabras = frase.split(" ")  # Divide la frase en palabras usando el espacio como separador
 print(palabras)  # Imprime la lista de palabras ['Aprender', 'Python', 'es', 'divertido']
 print()
+
+# Unir una lista de cadenas en una sola cadena usando un separador
+lista_palabras = ['Aprender', 'Python', 'es', 'divertido']
+frase_unida = " ".join(lista_palabras)  # Une las palabras con un espacio como separador
+print(frase_unida)  # Imprime 'Aprender Python es divertido'
+print()
+
+# Métodos comunes de cadenas
+texto_metodos = "  Hola Mundo! Bienvenidos a Python.  "
+# Eliminar espacios en blanco al inicio y al final
+texto_limpio = texto_metodos.strip()   
+print("Texto limpio:", texto_limpio)  # Imprime 'Hola Mundo! Bienvenidos a Python.'
+# Convertir a mayúsculas
+texto_mayusculas = texto_metodos.upper()
+print("Mayúsculas:", texto_mayusculas)  # Imprime '  HOLA MUNDO! BIENVENIDOS A PYTHON.  '
+# Convertir a minúsculas
+texto_minusculas = texto_metodos.lower()
+print("Minúsculas:", texto_minusculas)  # Imprime '  hola mundo! bienvenidos a python.  '
+# Reemplazar una subcadena por otra
+texto_reemplazado = texto_metodos.replace("Mundo", "Universo")
+print("Texto reemplazado:", texto_reemplazado)  # Imprime '  Hola Universo! Bienvenidos a Python.  '
+# Encontrar la posición de una subcadena
+posicion = texto_metodos.find("Bienvenidos")
+print("Posición de 'Bienvenidos':", posicion)  # Imprime la posición donde empieza 'Bienvenidos'
 
 
 
