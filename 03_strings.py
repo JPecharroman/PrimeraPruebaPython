@@ -107,7 +107,7 @@ print(frase_unida)  # Imprime 'Aprender Python es divertido'
 print()
 
 # Métodos comunes de cadenas
-texto_metodos = "  Hola Mundo! Bienvenidos a Python.  "
+texto_metodos = " Hola Mundo! Bienvenidos a Python.  "
 # Eliminar espacios en blanco al inicio y al final
 texto_limpio = texto_metodos.strip()   
 print("Texto limpio:", texto_limpio)  # Imprime 'Hola Mundo! Bienvenidos a Python.'
@@ -123,6 +123,12 @@ print("Texto reemplazado:", texto_reemplazado)  # Imprime '  Hola Universo! Bien
 # Encontrar la posición de una subcadena
 posicion = texto_metodos.find("Bienvenidos")
 print("Posición de 'Bienvenidos':", posicion)  # Imprime la posición donde empieza 'Bienvenidos'
+
+#acceso a un carácter específico por su índice
+caracter = texto_metodos[6]  # Obtiene el carácter en el índice 6
+print("Carácter en el índice 6:", caracter)  # Imprime 'M'  
+print()
+
 
 
 
