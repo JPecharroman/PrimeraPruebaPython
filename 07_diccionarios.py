@@ -13,3 +13,4 @@ print("Diccionario creado:", mi_diccionario)
 print("Tipo de dato:", type(mi_diccionario))
 print()
 
+# Otra forma de crear un diccionario es mediante el constructor dict()
