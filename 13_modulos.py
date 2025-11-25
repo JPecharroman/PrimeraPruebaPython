@@ -36,4 +36,3 @@ print(f"La resta es: {resta}")
 print(f"La multiplicacion es: {multiplicacion}")
 print(f"La division es: {division}")    
 
-   
